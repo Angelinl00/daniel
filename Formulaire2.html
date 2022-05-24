@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="Formulaire2.css" type="text/css">
+    <title>Document</title>
+</head>
+<body  style="background-image: url(fond.jpg);">
+<div class="container" style="color:navy ;">
+ <div class=row>
+     <div class="col-lg-6">
+         <form>
+          <legend><h3><span class="glyphicon glyphicon-pencil"> INSCRIPTION</span></h3></legend> 
+          <div class="form-group">
+              <label for="Nom">Nom:</label> <input type="text" id="Nom" name="Nom" class="form-control">
+          </div>
+          <div class="form-group">
+              <label for="Prénoms">Prénoms:</label> <input type="text" id="Prénoms" name="prénoms" class="form-control">
+          </div>
+          <div class="form-group">
+              <label for="Email">Email:</label> <input type="text" id="Email" name="Email" placeholder="IsaacTmh@gmail.com" class="form-control">
+          </div>
+          <div class="form-group">
+              <label for="Mot de passe">Mot de passe:</label> <input type="password" id="Mot de passe" name="Mot de passe" class="form-control">
+          </div>
+          <div class="form-group">
+              <label for="Date">Date de naissance:</label> <input type="date" id="Date" name="date" class="form-control">
+          </div>
+          <legend><h2>Sexe</h2></legend>
+          <div class="form-group">
+              <label for="Homme" class="radio">
+                  <input type="radio" name="Sexe" id="Homme">
+                  Homme
+              </label>
+          </div>
+          <div class="form-group">
+              <label for="Femme" class="radio">
+                  <input type="radio" name="Sexe" id="Femme">
+                  Femme
+                </label>
+            </div>
+              <div class="form-group" style="color:navy;">
+              <label for="Pays">Pays d'origine:</label>
+              <select class="form-control" name="Pays" id="Pays" style="color:navy;">
+                  <option value="Bénin">Tanzanie</option>
+                  <option value="Bénin">Somalie</option>
+                  <option value="Bénin">Rwanda</option>
+                  <option value="Bénin">Burundi</option>
+                  <option value="Bénin">Libéria</option>
+                  <option value="Bénin">Mauritanie</option>
+                  <option value="Bénin">Angola</option>
+                  <option value="Bénin">Lybie</option>
+                  <option value="Bénin">Algérie</option>
+                  <option value="Bénin">Égypte</option>
+                  <option value="Bénin">Djibouti</option>
+                  <option value="Bénin">Burkina Faso</option>
+                  <option value="Bénin">Gambie</option>
+                  <option value="Bénin">Gabon</option>
+                  <option value="Bénin">Mali</option>
+                  <option value="Bénin">Cameroon</option>
+                  <option value="Bénin">Soudan</option>
+                  <option value="Bénin">Tchad</option>
+                  <option value="Bénin">Kenya</option>
+                  <option value="Bénin">Afrique du sud</option>
+                  <option value="Bénin">Tunisie</option>
+                  <option value="Bénin">Congo</option>
+                  <option value="Bénin">Maroc</option>
+                  <option value="Bénin">Cap-Vert></option>
+                  <option value="Bénin">Zambie</option>
+                  <option value="Bénin">Sénégal</option>
+                  <option value="Bénin">Guinée</option>
+                  <option value="Bénin">Nigéria</option>
+                  <option value="Bénin">Niger</option>
+                  <option value="Bénin">Côte d'ivoire</option>
+                  <option value="Bénin">Togo</option>
+              </select>
+              <div>
+                  <legend><h3>PASSES-TEMPS PRÉFÉRÉS</h3></legend>
+                  <div class="form-group">
+                  <label for="Musique" class="checkbox">
+                      <input type="checkbox" id="Musique" name="Musique">
+                      Musique
+                      </label>
+                      <label for="Football" class="checkbox">
+                        <input type="checkbox" id="Football" name="Football">
+                        Football
+                      </label>
+                      <label for="Basketball" class="checkbox">
+                          <input type="checkbox" id="Basketball" name="Basketball">
+                          Basketball
+                      </label>
+                      <label for="Programmation" class="checkbox">
+                          <input type="checkbox" id="Programmation" name="Programmation">
+                          Programmation
+                      </label>
+              </div>
+              <button type="button" class="btn btn-danger">Quitter</button>
+              <input type="submit" class="btn btn-success">
+              <input type="reset" class="btn btn-warning">
+         </form>
+        </div>
+</body>
+</html>
